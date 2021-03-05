@@ -11,8 +11,23 @@ Example 1:
 ```php 
 wtf('foo');
 ```
+Prints:
+```
+string(3) "foo"
+```
 
 Example 2: 
 ```php 
 wtf(['bar'], ['foo'=>'bar']);
+```
+Prints:
+```
+Array
+(
+    [0] => bar
+)
+Array
+(
+    [foo] => bar
+)
 ```
